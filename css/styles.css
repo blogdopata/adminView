@@ -1,0 +1,49 @@
+body{
+    background: #f2f2f2;
+    font-size: 16px;
+    font-family: 'Gamja Flower','Roboto';
+}
+
+
+/* --- ----  Barra Lateral --- --- */
+.barra-lateral{
+    background-color: #262a34;
+    color:#fff;
+    min-width: 300px;
+    min-height: 100vh;
+    padding: 0;
+}
+.barra-lateral a{
+    color:#fff;
+}
+/* --- Logo --- */ 
+.barra-lateral .logo{
+    background-color: #0275eb;
+    margin-bottom: 2px;
+}
+.barra-lateral .logo h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px ;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+
+/* --- Menu  --- */
+
+.barra-lateral .menu a{
+    padding: 20px;
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    border-bottom: 1px solid rgba(255, 255, 2555, .1)
+}
+
+.barra-lateral .menu a:hover{
+    background-color: #35ae6b;     
+    text-decoration: none;
+ }
+ .barra-lateral .menu a i{
+     margin-right: 20px;
+     font-weight: normal;
+ }
