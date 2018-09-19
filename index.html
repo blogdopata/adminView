@@ -29,15 +29,14 @@
 
         </div>
         
-        <main class="main col">
-            <div class="row">
-                <div class="columna col-lg-7">
-                    <div class="widget nueva_entrada">
-                        <h3 class="titulo">Nueva Entrada</h3>
-                        <form action="">
+        <main class="main col" style='border: 5px solid red;' >
+            <div class="row" >
+                <div class="columna col-lg-7" style='border: 1px solid red;' >
+                    <div class="widget nueva_entrada" style='border: 1px solid blue;' >
+                        <h3 class="titulo" style='border: 1px solid red;' >Nueva Entrada</h3>
+                        <form action="" style='border: 1px solid red;' >
                             <input type="text" placeholder="Titulo d entrada">
-                            <textarea placeholder="
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius ratione voluptatum dicta accusantium. Tempora non quam adipisci dolore eligendi sunt consectetur ab quia nesciunt atque corporis, quaerat facilis vel."></textarea>
+                            <textarea placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius ratione voluptatum dicta accusantium. Tempora non quam adipisci dolore eligendi sunt consectetur ab quia nesciunt atque corporis, quaerat facilis vel."></textarea>
                             <div class="d-flex justify-content-end">
                                 <button> <i class="icon icon-edit"></i>Enviar</button>
                             </div>    
@@ -46,8 +45,8 @@
 
                 </div>
                 
-                <div class="columna col-lg-5">
-                    <div class="widget estadisticas">
+                <div class="columna col-lg-5" style='border: 1px solid blue;'  >
+                    <div class="widget estadisticas" style='border: 1px solid blue;' >
                         <h3 class="titulo">Estadisticas</h3>
                         <div class="contenedor d-flex flex-wrap">
                             <div class="caja">
@@ -65,6 +64,33 @@
                         </div>
                     </div>
 
+                    <div class="widget comentarios">
+                        <h3 class="titulo">Comentarios</h3>
+                        <div class="contenedor ">
+                            <div class="comentario d-flex flex-wrap">
+                                <div class="foto" style='border: 1px solid blue;' >
+                                    <a href="#">
+                                        <img src="images/persona1.jpg" width="100" alt="">
+                                    </a>
+                                </div>
+                                <div class="texto" style='border: 1px solid red;' >
+                                    <a href="#">Jhon Doe</a>
+                                    <p>En <a href="#">Mi primera endrada</a> </p>
+                                    <p class="texto-comentario">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, debitis minima, modi porro sequi voluptatibus excepturi distinctio molestiae ipsum quis perspiciatis veniam animi deserunt libero aperiam beatae ut, incidunt error?.</p>
+                                </div>
+                                <div class="botones d-flex justify-content-start flex-wrap  w-100 ">
+                                    <button class="aprobar"><i class="icon icon-ok"></i>Aprobar</button>
+                                   <button class="eliminar"><i class="icon icon-ok"></i>Eliminar</button>
+                                    <button class="bloquear"><i class="icon icon-flag"></i>BLoquear</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
                 </div>
 
             </div>
